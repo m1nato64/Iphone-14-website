@@ -1,0 +1,31 @@
+.header{
+    background-color: #0a0a0a;
+    padding: 33px 0 32px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__Buttons{
+    display: flex;
+}
+
+.news, .choose__Color, .orders{
+    padding-right: 30px;
+}
+
+.menu-link, .phone {
+    text-decoration: none;
+    color: #717171
+}
+
+
