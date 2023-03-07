@@ -39,6 +39,14 @@ ul {
 
 .menu__Buttons {
     display: flex;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.phone {
+    flex-basis: 0;
+    flex-grow: 1;
+    text-align: right;
 }
 
 .news, .choose__Color, .orders {
@@ -64,7 +72,7 @@ ul {
     margin-bottom: 25px;
 }
 
-.headline-btn {
+.headline__Button {
     display: inline-block;
     font-weight: 700;
     font-size: 24px;
@@ -74,4 +82,49 @@ ul {
     background-color: #490E84;
     padding: 22px 117px 19px;
     border-radius: 30px;
+}
+
+.whats__New {
+    padding: 0px 0 150px;
+    margin: 100px;
+}
+
+.title__News, .color__Title {
+    padding: 0 0 50px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #717171;
+    font-size: 32px;
+    line-height: 39px;  
+    font-weight: 700;
+}
+
+.news__Info {
+    display: flex;
+    align-items: center;
+}
+
+.news__Text p {
+    max-width: 560px;
+    margin: 0 0 30px;
+    margin-left: 350px;
+    color: #0A0A0A;
+}
+
+.news__Text b {
+    display: block;
+    color: #0A0A0A;
+    max-width: 560px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-left: 350px;
+}
+
+.image__News {
+    margin-left: 150px;
+}
+
+.choose__ColorPhone {
+    padding-bottom: 170px;
 }
