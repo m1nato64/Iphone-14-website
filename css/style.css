@@ -6,7 +6,7 @@ body {
     color: #0a0a0a;
 }
 
-.header {
+.header, .footer__Container {
     background-color: #0a0a0a;
     padding: 33px 0 32px;
     color: #717171;
@@ -25,7 +25,7 @@ ul {
     list-style: none;
 }
 
-.container {
+.container, .container__last-Header {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
@@ -35,6 +35,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 0 10px 0;
 }
 
 .menu__Buttons {
@@ -67,6 +68,7 @@ ul {
     font-weight: 700;
     font-size: 64px;
     line-height: 77px;
+    transition: all 0.3 ease;
 }
 
 .headline__Img {
@@ -83,6 +85,7 @@ ul {
     background-color: #490E84;
     padding: 22px 117px 19px;
     border-radius: 30px;
+    transition: all 0.3 ease;
 }
 
 .whats__New {
@@ -149,18 +152,37 @@ ul {
 .contacts__Inner {
     display: flex;
     justify-content: space-between;
-    padding: 0 290px 150px;
+    padding: 0 290px 0px;
 }
 
 .contacts__Form {
     width: 100%;
     padding: 140px 100px;
+    background: rgb(170,32,204);
+    background: linear-gradient(13deg, 
+                rgba(170,32,204,1) 0%,
+                rgba(191,95,219,1) 66%, 
+                rgba(164,88,213,1) 100%, 
+                rgba(128,62,202,1) 100%);
+    border-radius: 53px 0 0 0;
 }
 
 .contact__Title, .contact__Input {
     text-align: center;
     align-items: center;
     padding-left: 50px;
+}
+
+
+.endFrame__Iphone {
+    display: block;
+    border-radius: 0 53px 0 0;
+}
+
+.last__Logo {
+    display: block;
+    justify-content: center;
+    padding: 0 0 0 879px;
 }
 
 
