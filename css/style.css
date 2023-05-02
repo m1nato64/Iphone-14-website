@@ -158,12 +158,7 @@ ul {
 .contacts__Form {
     width: 100%;
     padding: 140px 100px;
-    background: rgb(170,32,204);
-    background: linear-gradient(13deg, 
-                rgba(170,32,204,1) 0%,
-                rgba(191,95,219,1) 66%, 
-                rgba(164,88,213,1) 100%, 
-                rgba(128,62,202,1) 100%);
+    background-color: #574B63;
     border-radius: 53px 0 0 0;
 }
 
@@ -185,4 +180,55 @@ ul {
     padding: 0 0 0 879px;
 }
 
+.contact__Title {
+    margin: 0 0 60px;
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 39px;
+}
 
+.contacts__Input {
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid #fff;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #574B63;
+}
+
+.contacts__Input::placeholder {
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffF;
+    opacity: .5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.contacts__Form {
+    text-align: center;
+}
+
+.contacts__Form p {
+    opacity: .5;
+    text-align: center;
+    margin: 30px 0;
+    color: #fff;
+}
+
+.contacts__Form h2 {
+    color: #fff;
+}
+
+
+.contacts__Form button {
+    border: none;
+    text-transform: uppercase;
+    color: #490E84;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 16px 81px;
+    font-weight: 400;
+    cursor: pointer;
+}
